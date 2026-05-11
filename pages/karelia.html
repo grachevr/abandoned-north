@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карелия — Брошено</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<div class="cursor"></div><div class="cursor-ring"></div><div class="veil"></div>
+<div class="nav-overlay" id="nav-overlay"><div class="nav-overlay-kicker">Навигация</div><ul class="nav-overlay-links"><li><a href="../index.html" data-t>Главная</a></li><li><a href="../index.html#regions" data-t>Регионы</a></li></ul></div>
+<nav><a href="../index.html" class="nav-logo" data-t>БРОШЕНО</a><ul class="nav-links"><li><a href="../index.html#regions">Регионы</a></li></ul><button class="nav-burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button></nav>
+
+<header class="region-hero">
+  <div class="region-hero-bg" style="background-image:url('../images/region-karelia.jpg'); background-size:cover; background-position:center; background-color:var(--bg3);"></div>
+  <div class="region-hero-overlay"></div>
+  <div class="region-hero-content">
+    <div class="breadcrumb"><a href="../index.html" data-t>Главная</a><span>/</span><span>Карелия</span></div>
+    <h1 class="region-hero-title">Карелия</h1>
+    <div class="badges"><span class="badge">2 объекта</span><span class="badge">Финские кирхи</span><span class="badge">1935–1851</span></div>
+  </div>
+</header>
+
+<section class="objects-section">
+  <div class="section-head reveal"><div><div class="kicker">Объекты</div><h2 class="section-title">Карелия</h2></div><div class="section-count">2 объекта</div></div>
+  <div class="obj-grid" data-stagger>
+
+    <a href="karelia-lumivaara.html" class="ocard" data-t>
+      <div class="ocard-img" style="background-image:url('../images/karelia-lumivaara.jpg'); background-size:cover; background-position:center;" data-n="01"></div>
+      <div class="ocard-body">
+        <div class="ocard-type">Культовый · Кирха · Неоготика</div>
+        <div class="ocard-title">Кирха Лумиваара</div>
+        <div class="ocard-desc">Белоснежная лютеранская кирха 1935 года в карельском лесу. Открылась за 4 года до Зимней войны и закрылась навсегда. Внутри — сохранившиеся фрески, колокол и атмосфера ушедшей эпохи.</div>
+        <div class="ocard-meta"><span>1935 год</span><span>Лахденпохский р-н</span></div>
+      </div>
+    </a>
+
+    <a href="karelia-yakkima.html" class="ocard" data-t>
+      <div class="ocard-img" style="background-image:url('../images/karelia-yakkima.jpg'); background-size:cover; background-position:center;" data-n="02"></div>
+      <div class="ocard-body">
+        <div class="ocard-type">Культовый · Кирха · Руины</div>
+        <div class="ocard-title">Кирха Яккима</div>
+        <div class="ocard-desc">Крупнейшая кирха региона 1851 года на 3000 прихожан. Пережила три войны, но не советское запустение. После пожара 1977 года — лишь кирпичные стены. Сейчас на развалинах — музей ангелов.</div>
+        <div class="ocard-meta"><span>1851 год</span><span>Лахденпохья</span></div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<footer><div class="footer-logo">БРОШЕНО</div><div class="footer-copy">© 2026 · Архив заброшенных объектов Северо-Западной России</div></footer>
+<script src="../js/main.js"></script>
+<script>document.getElementById('burger').addEventListener('click',function(){this.classList.toggle('open');document.getElementById('nav-overlay').classList.toggle('open');document.body.style.overflow=this.classList.contains('open')?'hidden':''});</script>
+</body>
+</html>
